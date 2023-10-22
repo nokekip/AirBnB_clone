@@ -22,20 +22,25 @@
 .filters button:hover {
   opacity: 0.9;
 }
-.locations, .amenities {
+.locations,
+.amenities {
   width: 25%;
   height: 100%;
   padding-left: 50px;
 }
 .locations {
-  border-right: 1px solid #DDDDDD;
+  border-right: 1px solid #dddddd;
 }
-.locations h3, .amenities h3 {
+.locations h3,
+.amenities h3 {
   font-weight: 600;
-  margin: 12px 0 5px ;
+  margin: 12px 0 5px;
+  text-align: left;
 }
-.locations  h4, .amenities h4 {
+.locations h4,
+.amenities h4 {
   font-weight: 400;
   font-size: 14px;
+  text-align: left;
   margin: 0;
 }
